@@ -1,60 +1,67 @@
+<!-- Language Selector -->
+<div align="center">
+
+[English](README.md) | [日本語](README.ja.md)
+
+</div>
+
 ![image](https://github.com/user-attachments/assets/dee7188a-9a10-4599-b5b3-8a8aa3968e5e)
 
 ![image](https://github.com/user-attachments/assets/0599ebde-4d33-4766-9593-4531b958ad7f)
 
 ## Mission
-AI が人間の知識を超える日がそう遠くないとした時に  
-AI になくて人間にあるものとして  
-「意志の力」や「熱量」が重要であると考えています。  
+As we approach the day when AI surpasses human knowledge,  
+we believe that "willpower" and "passion" are what humans possess  
+that AI lacks.  
 
-これからの未来に向けて重要な『意志の力・熱量』を  
-AIテクノロジーで助けていくことを使命に掲げ  
-私たちは、新たな社会やビジネスづくりに挑戦していきます。  
+With a mission to support this essential 'willpower and passion'  
+through AI technology for the future,  
+we challenge ourselves to create new societies and businesses.  
 
 ---
 
 ## Tech Stack
-Aid-On Inc. では、最新の技術を活用しながら  
-スケーラブルで高品質な AI ソリューションを開発しています。
+At Aid-On Inc., we develop scalable and high-quality AI solutions  
+utilizing cutting-edge technologies.
 
 - **Terraform**  
-  インフラ構成をコード化し、スケーラブルかつ再現性の高い環境構築を実現。
+  Infrastructure as Code for scalable and reproducible environment deployment.
 
 - **TypeScript**  
-  静的型付けによるバグの事前検知や開発効率向上を図り、大規模開発の基盤として活用。
+  Static typing for early bug detection and improved development efficiency in large-scale projects.
 
 - **Next.js**  
-  React ベースのフレームワークを活用し、SSR や SSG による高速かつ柔軟な Web アプリケーションを構築。
+  React-based framework for building fast and flexible web applications with SSR and SSG.
 
 - **React**  
-  UI 構築のための主要なライブラリとして採用し、コンポーネントベースの開発で保守性・拡張性を向上。
+  Primary UI library enabling component-based development for maintainability and extensibility.
 
 - **Tailwind CSS**  
-  ユーティリティファーストなスタイリングを行い、スピーディーかつ一貫性のあるデザインを実現。
+  Utility-first styling for rapid and consistent design implementation.
 
 - **LangChain**  
-  LLM（大規模言語モデル）を活用したアプリケーションの開発を加速し、柔軟な AI ソリューションを提供。
+  Accelerating LLM (Large Language Model) application development for flexible AI solutions.
 
 - **Firebase**  
-  BaaS（Backend as a Service）として活用し、リアルタイムデータベース・認証・ホスティングを提供。
+  Backend as a Service providing real-time database, authentication, and hosting capabilities.
 
 ---
 
 ## Company
 
-### 会社名
-株式会社Aid-On / Aid-On Inc.
+### Company Name
+Aid-On Inc. / 株式会社Aid-On
 
-### 所在地
-宮崎県宮崎市
+### Location
+Miyazaki City, Miyazaki Prefecture, Japan
 
-### 事業内容
-人工知能及び応用技術に係るソフトウェア、システム等の  
-企画・開発・コンサルティング・保守など
+### Business Overview
+Planning, development, consulting, and maintenance of  
+artificial intelligence and applied technology software and systems.
 
-### 連絡先
+### Contact
 [info@aid-on.org](mailto:info@aid-on.org)
 
 ---
 
-© 2024 Aid-On Inc.
+© 2025 Aid-On Inc.
