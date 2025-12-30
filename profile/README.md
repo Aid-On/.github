@@ -1,3 +1,10 @@
+<!-- Language Selector -->
+<div align="center">
+
+[English](README.md) | [日本語](README.ja.md)
+
+</div>
+
 ![image](https://github.com/user-attachments/assets/dee7188a-9a10-4599-b5b3-8a8aa3968e5e)
 
 ![image](https://github.com/user-attachments/assets/0599ebde-4d33-4766-9593-4531b958ad7f)
@@ -6,71 +13,93 @@
 
 # Aid-On README
 
-## Mission｜使命
+## Mission
 
-### **AIを作らず、相棒をつくろう。**
+### **Build Partners, Not Just AI.**
 
-人とAIが互いを引き上げ、意志を即・行動へ変換できる社会を築く。
+Creating a society where humans and AI elevate each other, instantly transforming will into action.
 
-- **“AI”ではなく“相棒”** – 情報の壁を溶かし、誰もが自分の想いにアクセルを踏める。  
-- **人 × AI の共闘** – 個人の情熱を社会の推進力へ変え、成功体験をシェアし合う。
-
----
-
-## Vision｜展望
-
-### **宮崎から、人とAIの共闘を世界標準に。**
-
-地域で磨いたモデルを全国へ、そしてグローバルへ拡張する。
-
-1. **宮崎で実証 → 全国 → 世界** – 地域課題を解決し、再現可能なモデルとして横展開。  
-2. **循環型ナレッジネットワーク** – AIと人が学習・防御・最適化を共有し、失敗さえ資産化。  
-3. **オープンプロセス** – 透明性が新たな挑戦と成長を呼び込む。
+- **"Partners" not "AI"** – Dissolving information barriers, enabling everyone to accelerate their aspirations.  
+- **Human × AI Collaboration** – Converting individual passion into social driving force, sharing success experiences.
 
 ---
 
-## Values｜価値観
+## Vision
 
-### **ヒト×AIって、面白い。**
+### **From Miyazaki, Making Human-AI Collaboration the Global Standard.**
 
-“パートナーシップ”を原動力に、AIとヒトの両輪で挑戦を加速し、ともに進化する。
+Expanding locally refined models nationwide, then globally.
 
-### Aid-On プリンシパル
+1. **Miyazaki Proof → National → Global** – Solving regional challenges and scaling as reproducible models.  
+2. **Circular Knowledge Network** – AI and humans share learning, defense, and optimization, turning even failures into assets.  
+3. **Open Process** – Transparency invites new challenges and growth.
 
-1. **情報はオープンに**  
-   - **Why**: 情報の非対称をなくし、コラボレーション速度を最大化する。  
-   - **Behaviors**: ドキュメント・データは原則オープン、個別相談よりまず共有チャンネル、判断根拠を残す。
+---
 
-2. **フィードバックを回そう**  
-   - **Why**: 不確実性を味方にし、学びを最大化する。成功も失敗も美味しいご飯！  
-   - **Behaviors**: とにかく試す → 計測 → 学習 → 改善のループ、定期的な同期、成功・失敗談の共有。
+## Values
 
-3. **AIに遠慮なく頼る**  
-   - **Why**: 人の創造性にリソースを集中させる。  
-   - **Behaviors**: 作業開始前にAI活用を検討、繰り返し業務は自動化、AIからの提案を常に評価する姿勢。
+### **Human × AI is Fascinating.**
+
+Powered by "partnership," accelerating challenges and evolving together with AI and humans as dual engines.
+
+### Aid-On Principles
+
+1. **Information is Open**  
+   - **Why**: Eliminating information asymmetry to maximize collaboration speed.  
+   - **Behaviors**: Documents and data are open by default, shared channels before individual consultations, leaving decision rationale.
+
+2. **Keep the Feedback Loop Running**  
+   - **Why**: Making uncertainty an ally and maximizing learning. Success and failure are both delicious meals!  
+   - **Behaviors**: Try → Measure → Learn → Improve loop, regular synchronization, sharing success and failure stories.
+
+3. **Rely on AI Without Hesitation**  
+   - **Why**: Concentrating human resources on creativity.  
+   - **Behaviors**: Consider AI utilization before starting work, automate repetitive tasks, always evaluate AI suggestions.
 
 ---
 
 ## Key Message
 
-> **「AIではなく、相棒に」**  
-> 技術という語感を脱ぎ捨て、隣りで共創する存在へ。  
-> 意志を行動へ、挑戦を日常へ──これが **Aid-On** です。
+> **"Not AI, but Partners"**  
+> Shedding the technical connotation, becoming co-creative companions.  
+> Will into action, challenges into daily life – This is **Aid-On**.
 
 ---
 
 ## Tech Stack
 
-Aid-On Inc. では、最新の技術を活用しながら  
-スケーラブルで高品質な AI ソリューションを開発しています。
+At Aid-On Inc., we develop scalable and high-quality AI solutions  
+utilizing cutting-edge technologies.
 
-- **Terraform** – インフラ構成をコード化し、スケーラブルかつ再現性の高い環境構築を実現。  
-- **TypeScript** – 静的型付けによるバグの事前検知や開発効率向上を図り、大規模開発の基盤として活用。  
-- **Next.js** – React ベースのフレームワークを活用し、SSR や SSG による高速かつ柔軟な Web アプリケーションを構築。  
-- **React** – UI 構築のための主要なライブラリとして採用し、コンポーネントベースの開発で保守性・拡張性を向上。  
-- **Tailwind CSS** – ユーティリティファーストなスタイリングを行い、スピーディーかつ一貫性のあるデザインを実現。  
-- **Mastra** – LLM オーケストレーション／推論基盤として採用し、生成 AI アプリケーションの開発と運用を高速化。  
-- **Cloudflare** – Workers／KV／D1／R2 などを利用し、グローバルで高速・セキュアなサーバレス基盤とエッジホスティングを提供。
+### Infrastructure & Cloud
+- **Cloudflare** – Edge computing platform for Workers, Pages, D1 Database, R2 Storage, Durable Objects, and global CDN.
+- **CDKTF (CDK for Terraform)** – TypeScript-based Infrastructure as Code for managing cloud resources with type safety.
+- **Terraform** – Infrastructure as Code for scalable and reproducible environment deployment.
+
+### AI & Machine Learning
+- **Groq** – Ultra-fast LPU (Language Processing Unit) inference for real-time AI applications.
+- **Mastra** – AI agent framework for building multi-step, tool-enabled AI workflows.
+- **LangChain** – Accelerating LLM (Large Language Model) application development for flexible AI solutions.
+- **Google Gemini** – Multi-modal AI model for advanced text, image, and code understanding.
+
+### Frontend Frameworks
+- **Qwik** – Resumable framework with O(1) hydration for instant-loading web applications.
+- **Next.js** – React-based framework for building fast and flexible web applications with SSR and SSG.
+- **React** – Primary UI library enabling component-based development for maintainability and extensibility.
+- **Astro** – Content-focused framework for building fast, SEO-friendly websites with partial hydration.
+
+### Languages & Runtime
+- **TypeScript** – Static typing for early bug detection and improved development efficiency in large-scale projects.
+- **Deno** – Secure runtime for JavaScript and TypeScript with built-in tooling.
+- **Bun** – All-in-one JavaScript runtime and toolkit for faster development.
+
+### Styling & UI
+- **Tailwind CSS** – Utility-first styling for rapid and consistent design implementation.
+- **Carbon Design System** – IBM's open-source design system for enterprise-grade UI consistency.
+
+### Backend Services
+- **Firebase** – Backend as a Service providing real-time database, authentication, and hosting capabilities.
+- **Hono** – Lightweight, fast web framework for edge computing environments.
 
 ---
 
@@ -78,10 +107,10 @@ Aid-On Inc. では、最新の技術を活用しながら
 
 |                |                            |
 | -------------- | -------------------------- |
-| **会社名**     | 株式会社 Aid-On / Aid-On Inc. |
-| **所在地**     | 宮崎県宮崎市               |
-| **事業内容**   | 人工知能および応用技術に係るソフトウェア、システム等の企画・開発・コンサルティング・保守 |
-| **連絡先**     | [info@aid-on.org](mailto:info@aid-on.org) |
+| **Company Name** | Aid-On Inc. / 株式会社 Aid-On |
+| **Location**   | Miyazaki City, Miyazaki Prefecture |
+| **Business**   | Planning, development, consulting, and maintenance of artificial intelligence and applied technology software and systems |
+| **Contact**    | [info@aid-on.org](mailto:info@aid-on.org) |
 
 ---
 
