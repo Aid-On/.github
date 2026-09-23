@@ -32,6 +32,14 @@ Take the permission back when you have to. Putting that between people and AI is
 - Articles - <https://aid-on.org/module>
 - Contact - <info@aid-on.org>
 
+## Official logo
+
+[CC BY-NC-ND 4.0 DEED](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+- <https://aid-on.org/images/aid-on-logo-ink.svg> - for a light background
+- <https://aid-on.org/images/aid-on-logo-white.svg> - for a dark background
+- <https://aid-on.org/favicon.svg> - the mark alone
+
 ## Aid-On commercial products
 
 - [teastia](https://aid-on.org/product) - pre-production review for AI business applications (in preparation)
