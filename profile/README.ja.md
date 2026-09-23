@@ -32,14 +32,6 @@ AI 業務アプリのソースコードを動かさずに読み、
 - 解説記事 - <https://aid-on.org/module>
 - お問い合わせ - <info@aid-on.org>
 
-## 公式ロゴ
-
-[CC BY-NC-ND 4.0 DEED](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)
-
-- <https://aid-on.org/images/aid-on-logo-ink.svg> - 明るい背景に置くもの
-- <https://aid-on.org/images/aid-on-logo-white.svg> - 暗い背景に置くもの
-- <https://aid-on.org/favicon.svg> - 印だけのもの
-
 ## Aid-On の商用製品
 
 - [teastia](https://aid-on.org/product) - AI 業務アプリの本番導入前診断（準備中）
