@@ -47,7 +47,7 @@ and is developed by Aid-On.
 - [vscode-almide](https://github.com/almide/vscode-almide) / [tree-sitter-almide](https://github.com/almide/tree-sitter-almide) - editor support
 - [almide-grammar](https://github.com/almide/almide-grammar) - the single source of truth for the grammar
 - [parsegen](https://github.com/almide/parsegen) - a tree-sitter compatible parser generator that reads grammar.json, with no C and running in WASM
-  - the parser side is to hand over to gramide, written in Almide, in time
+  - the parser side is to hand over to [gramide](https://github.com/O6lvl4/gramide), written in Almide, in time
 - [almide-agents](https://github.com/almide/almide-agents) - an AGENTS.md that teaches a coding agent to write Almide correctly
 - Organization - <https://github.com/almide>
 

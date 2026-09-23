@@ -47,7 +47,7 @@ Aid-On が開発しています。
 - [vscode-almide](https://github.com/almide/vscode-almide) / [tree-sitter-almide](https://github.com/almide/tree-sitter-almide) - エディタ対応
 - [almide-grammar](https://github.com/almide/almide-grammar) - 文法の単一の出どころ
 - [parsegen](https://github.com/almide/parsegen) - grammar.json を読む tree-sitter 互換のパーサジェネレータ。C を使わず WASM で動く
-  - パーサまわりは、そのうち Almide 製の gramide へ交代させる予定です
+  - パーサまわりは、そのうち Almide 製の [gramide](https://github.com/O6lvl4/gramide) へ交代させる予定です
 - [almide-agents](https://github.com/almide/almide-agents) - コーディングエージェントに Almide を正しく書かせるための AGENTS.md
 - 組織 - <https://github.com/almide>
 
