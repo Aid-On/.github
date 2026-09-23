@@ -14,10 +14,12 @@
 # 株式会社 Aid-On
 
 Aid-On は宮崎の小さな会社です。**人が AI に渡す権限の境界**に絞って製品を作っています。
+主力製品の [teastia](https://aid-on.org/product) は LLM が最も正確に書ける自社開発の言語
+[Almide](https://github.com/almide/almide) で開発されており、
+AI 業務アプリのソースコードを動かさずに読み、
+[WASI](https://wasi.dev/) の capability ベースの設計を基準に本番導入の可否を判定する診断ツールです。
 
-土台は WebAssembly と [WASI](https://wasi.dev/) の capability ベースの設計です。
-実行は [Wasmtime](https://wasmtime.dev/) と OS のカーネル機能に任せ、
-実装には LLM が最も正確に書ける自社開発の言語 [Almide](https://github.com/almide/almide) を使っています。
+土台は WebAssembly と WASI です。実行は [Wasmtime](https://wasmtime.dev/) と OS のカーネル機能に任せています。
 
 > **渡していない権限は、行使できない。**
 
@@ -30,9 +32,14 @@ Aid-On は宮崎の小さな会社です。**人が AI に渡す権限の境界*
 - 解説記事 - <https://aid-on.org/module>
 - お問い合わせ - <info@aid-on.org>
 
-## 商用製品
+## Aid-On の商用製品
 
-準備中です。ご相談は [info@aid-on.org](mailto:info@aid-on.org) までお願いします。
+- [teastia](https://aid-on.org/product) - AI 業務アプリの本番導入前診断（準備中）
+- [Text Smash](https://textsmash.aid-on.org/) - 長い資料を、要点と原文で読む
+- [Fact Judge](https://factjudge.aid-on.org/) - 文章を要点に分け、出典で確かめる
+- [Spider5000](https://spider5000.aid-on.org/) - 中心の問いから、考えを広げる地図
+
+teastia のご相談は [info@aid-on.org](mailto:info@aid-on.org) までお願いします。
 
 ## オープンソース
 

@@ -14,10 +14,12 @@
 # Aid-On Inc.
 
 Aid-On is a small company in Miyazaki, Japan. We work on one thing: **the boundary of the permissions a person hands to an AI**.
-
-The ground is WebAssembly and [WASI](https://wasi.dev/) capability-based security.
-Enforcement is left to [Wasmtime](https://wasmtime.dev/) and the OS kernel, and the code is written in
+Our main product, [teastia](https://aid-on.org/product), is written in
 [Almide](https://github.com/almide/almide), our own language, the one an LLM writes most accurately.
+It reads the source of an AI business application without running it and decides whether the application
+may go to production, judged against [WASI](https://wasi.dev/) capability-based security.
+
+The ground is WebAssembly and WASI. Enforcement is left to [Wasmtime](https://wasmtime.dev/) and the OS kernel.
 
 > **A permission you did not grant cannot be exercised.**
 
@@ -30,9 +32,14 @@ Take the permission back when you have to. Putting that between people and AI is
 - Articles - <https://aid-on.org/module>
 - Contact - <info@aid-on.org>
 
-## Commercial products
+## Aid-On commercial products
 
-In preparation. Please reach us at [info@aid-on.org](mailto:info@aid-on.org).
+- [teastia](https://aid-on.org/product) - pre-production review for AI business applications (in preparation)
+- [Text Smash](https://textsmash.aid-on.org/) - read a long document by its key points, beside the original
+- [Fact Judge](https://factjudge.aid-on.org/) - break a text into claims and check each one against sources
+- [Spider5000](https://spider5000.aid-on.org/) - a map that grows outward from one central question
+
+For teastia, please reach us at [info@aid-on.org](mailto:info@aid-on.org).
 
 ## Open source
 
