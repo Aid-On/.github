@@ -11,7 +11,7 @@
 
 ---
 
-# Aid-On Inc.
+# [Aid-On Inc.](https://aid-on.org/)
 
 Aid-On is a small company in Miyazaki, Japan. We work on one thing: **the boundary of the permissions a person hands to an AI**.
 Our main product, [teastia](https://aid-on.org/product), is written in
@@ -73,26 +73,3 @@ Landlock and seccomp on Linux. A restriction the kernel cannot express refuses t
 
 The rest is in [Repositories](https://github.com/orgs/Aid-On/repositories).
 Each repository carries its own LICENSE.
-
-## About us
-
-| | |
-| --- | --- |
-| **Mission** | A world where people and AI can safely entrust their strengths to each other |
-| **Vision** | Making it ordinary to take on challenges together with AI |
-| **Value** | Trust opens possibilities |
-
-More at <https://aid-on.org/>.
-
-## Company
-
-|                |                            |
-| -------------- | -------------------------- |
-| **Company Name** | Aid-On Inc. / 株式会社 Aid-On |
-| **Location**   | Miyazaki City, Miyazaki Prefecture, Japan |
-| **Business**   | Planning, development, consulting, and maintenance of artificial intelligence and applied technology software and systems |
-| **Contact**    | [info@aid-on.org](mailto:info@aid-on.org) |
-
----
-
-© 2026 Aid-On Inc.
