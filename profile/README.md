@@ -11,107 +11,81 @@
 
 ---
 
-# Aid-On README
+# Aid-On Inc.
 
-## Mission
+Aid-On is a small company in Miyazaki, Japan. We work on one thing: **the boundary of the permissions a person hands to an AI**.
 
-### **Build Partners, Not Just AI.**
+The ground is WebAssembly and [WASI](https://wasi.dev/) capability-based security.
+Enforcement is left to [Wasmtime](https://wasmtime.dev/) and the OS kernel, and the code is written in
+[Almide](https://github.com/almide/almide), our own language, the one an LLM writes most accurately.
 
-Creating a society where humans and AI elevate each other, instantly transforming will into action.
+> **A permission you did not grant cannot be exercised.**
 
-- **"Partners" not "AI"** – Dissolving information barriers, enabling everyone to accelerate their aspirations.  
-- **Human × AI Collaboration** – Converting individual passion into social driving force, sharing success experiences.
-
----
-
-## Vision
-
-### **From Miyazaki, Making Human-AI Collaboration the Global Standard.**
-
-Expanding locally refined models nationwide, then globally.
-
-1. **Miyazaki Proof → National → Global** – Solving regional challenges and scaling as reproducible models.  
-2. **Circular Knowledge Network** – AI and humans share learning, defense, and optimization, turning even failures into assets.  
-3. **Open Process** – Transparency invites new challenges and growth.
+Hand over only the data and the operations that are needed. Stop anything beyond that.
+Take the permission back when you have to. Putting that between people and AI is what Aid-On does.
 
 ---
 
-## Values
+- Website - <https://aid-on.org/>
+- Articles - <https://aid-on.org/module>
+- Contact - <info@aid-on.org>
 
-### **Human × AI is Fascinating.**
+## Commercial products
 
-Powered by "partnership," accelerating challenges and evolving together with AI and humans as dual engines.
+In preparation. Please reach us at [info@aid-on.org](mailto:info@aid-on.org).
 
-### Aid-On Principles
+## Open source
 
-1. **Information is Open**  
-   - **Why**: Eliminating information asymmetry to maximize collaboration speed.  
-   - **Behaviors**: Documents and data are open by default, shared channels before individual consultations, leaving decision rationale.
+### Almide
 
-2. **Keep the Feedback Loop Running**  
-   - **Why**: Making uncertainty an ally and maximizing learning. Success and failure are both delicious meals!  
-   - **Behaviors**: Try → Measure → Learn → Improve loop, regular synchronization, sharing success and failure stories.
+A statically typed language built so an LLM writes it accurately. It compiles to Rust and WebAssembly,
+and is developed by Aid-On.
 
-3. **Rely on AI Without Hesitation**  
-   - **Why**: Concentrating human resources on creativity.  
-   - **Behaviors**: Consider AI utilization before starting work, automate repetitive tasks, always evaluate AI suggestions.
+- [almide](https://github.com/almide/almide) - the compiler
+- [als](https://github.com/almide/als) - the language specification, its conformance corpus, and the judge that runs it against any almide binary
+- [playground](https://github.com/almide/playground) - write and run `.almd` in the browser
+- [vscode-almide](https://github.com/almide/vscode-almide) / [tree-sitter-almide](https://github.com/almide/tree-sitter-almide) - editor support
+- [almide-grammar](https://github.com/almide/almide-grammar) - the single source of truth for the grammar
+- [parsegen](https://github.com/almide/parsegen) - a tree-sitter compatible parser generator that reads grammar.json, with no C and running in WASM
+  - the parser side is to hand over to gramide, written in Almide, in time
+- [almide-agents](https://github.com/almide/almide-agents) - an AGENTS.md that teaches a coding agent to write Almide correctly
+- Organization - <https://github.com/almide>
 
----
+### Porta
 
-## Key Message
+A sandbox that runs an agent with the permissions you actually granted it.
+The limits are enforced by the OS kernel rather than by a wrapper or a prompt: Seatbelt on macOS,
+Landlock and seccomp on Linux. A restriction the kernel cannot express refuses the run instead of weakening it.
 
-> **"Not AI, but Partners"**  
-> Shedding the technical connotation, becoming co-creative companions.  
-> Will into action, challenges into daily life – This is **Aid-On**.
+- [porta](https://github.com/almide/porta)
 
----
+### Libraries
 
-## Tech Stack
+- For Almide - [toml](https://github.com/Aid-On/toml) / [yaml](https://github.com/Aid-On/yaml) / [sha1](https://github.com/Aid-On/sha1)
+- For TypeScript and the edge - [unillm](https://github.com/Aid-On/unillm) / [nagare](https://github.com/Aid-On/nagare) / [auth](https://github.com/Aid-On/auth) / [whenm](https://github.com/Aid-On/whenm)
 
-At Aid-On Inc., we develop scalable and high-quality AI solutions  
-utilizing cutting-edge technologies.
+The rest is in [Repositories](https://github.com/orgs/Aid-On/repositories).
+Each repository carries its own LICENSE.
 
-### Infrastructure & Cloud
-- **Cloudflare** – Edge computing platform for Workers, Pages, D1 Database, R2 Storage, Durable Objects, and global CDN.
-- **CDKTF (CDK for Terraform)** – TypeScript-based Infrastructure as Code for managing cloud resources with type safety.
-- **Terraform** – Infrastructure as Code for scalable and reproducible environment deployment.
+## About us
 
-### AI & Machine Learning
-- **Groq** – Ultra-fast LPU (Language Processing Unit) inference for real-time AI applications.
-- **Mastra** – AI agent framework for building multi-step, tool-enabled AI workflows.
-- **LangChain** – Accelerating LLM (Large Language Model) application development for flexible AI solutions.
-- **Google Gemini** – Multi-modal AI model for advanced text, image, and code understanding.
+| | |
+| --- | --- |
+| **Mission** | A world where people and AI can safely entrust their strengths to each other |
+| **Vision** | Making it ordinary to take on challenges together with AI |
+| **Value** | Trust opens possibilities |
 
-### Frontend Frameworks
-- **Qwik** – Resumable framework with O(1) hydration for instant-loading web applications.
-- **Next.js** – React-based framework for building fast and flexible web applications with SSR and SSG.
-- **React** – Primary UI library enabling component-based development for maintainability and extensibility.
-- **Astro** – Content-focused framework for building fast, SEO-friendly websites with partial hydration.
-
-### Languages & Runtime
-- **TypeScript** – Static typing for early bug detection and improved development efficiency in large-scale projects.
-- **Deno** – Secure runtime for JavaScript and TypeScript with built-in tooling.
-- **Bun** – All-in-one JavaScript runtime and toolkit for faster development.
-
-### Styling & UI
-- **Tailwind CSS** – Utility-first styling for rapid and consistent design implementation.
-- **Carbon Design System** – IBM's open-source design system for enterprise-grade UI consistency.
-
-### Backend Services
-- **Firebase** – Backend as a Service providing real-time database, authentication, and hosting capabilities.
-- **Hono** – Lightweight, fast web framework for edge computing environments.
-
----
+More at <https://aid-on.org/>.
 
 ## Company
 
 |                |                            |
 | -------------- | -------------------------- |
 | **Company Name** | Aid-On Inc. / 株式会社 Aid-On |
-| **Location**   | Miyazaki City, Miyazaki Prefecture |
+| **Location**   | Miyazaki City, Miyazaki Prefecture, Japan |
 | **Business**   | Planning, development, consulting, and maintenance of artificial intelligence and applied technology software and systems |
 | **Contact**    | [info@aid-on.org](mailto:info@aid-on.org) |
 
 ---
 
-© 2025 Aid-On Inc.
+© 2026 Aid-On Inc.
